@@ -1,0 +1,23 @@
+# How to use this file:
+# This file (.gitignore) tells Git which files and folders it should NOT track or upload to GitHub/GitLab.
+# - To ignore a specific file, just type its exact name (e.g., secret.json)
+# - To ignore an entire folder and everything inside it, type the folder name followed by a slash (e.g., my_folder/)
+# - You can also use wildcards (e.g., *.csv to ignore all CSV files)
+
+# Sensitive Credentials & Tokens
+credentials.json
+drive_token.json
+tokens/
+desktop.ini
+
+# Generated Output and Logs
+output/
+logs/
+cron_audit.log
+
+# Python Virtual Environments & Cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo

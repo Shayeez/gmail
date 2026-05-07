@@ -1,0 +1,123 @@
+2026-05-06 10:11:27,881 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-06 10:11:28,587 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-06 10:11:29,913 - INFO - Fetching details for 2 messages...
+2026-05-06 10:11:30,758 - INFO - Saved 2 records to output\shayeez8888@gmail.com_Important_20260506.xlsx
+2026-05-06 10:11:30,765 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-06 10:14:54,413 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-06 10:14:54,457 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-06 10:14:55,511 - INFO - Fetching details for 2 messages...
+2026-05-06 10:14:56,179 - INFO - Saved 2 records to output\shayeez8888@gmail.com_Important_20260506.xlsx
+2026-05-06 10:14:56,186 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-06 10:14:56,843 - ERROR - An unexpected error occurred while processing account spzohous@gmail.com: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+Traceback (most recent call last):
+  File "G:\.shortcut-targets-by-id\1Qo_94sphOgbE8x9G42zAk0w6ksSsbY98\@Gdrive Shamim_shayeez\PythonGmail\mail.py", line 132, in fetch_emails_for_account
+    creds = get_credentials(account_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\.shortcut-targets-by-id\1Qo_94sphOgbE8x9G42zAk0w6ksSsbY98\@Gdrive Shamim_shayeez\PythonGmail\mail.py", line 61, in get_credentials
+    creds.refresh(Request())
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+    _client._handle_error_response(response_data, retryable_error)
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-05-06 10:15:33,657 - INFO - Authenticating account: 6shamimai@gmail.com
+2026-05-06 10:15:33,984 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=543977571099-uburbhbksq3fn8v1jb1qdqurss6oni9q.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A58376%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=VImJlQwcgQbvD24jGMvm7nZSk78M9D&code_challenge=u-dYONlYeRLT6OJ3IOICXnW2WYqlewaVZwWA8uoSMxs&code_challenge_method=S256&access_type=offline
+2026-05-06 10:16:03,358 - INFO - Authenticating account: spzohous@gmail.com
+2026-05-06 10:20:13,401 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-06 10:20:13,428 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-06 10:20:14,613 - INFO - Fetching details for 4 messages...
+2026-05-06 10:20:15,922 - INFO - Saved 4 records to output\shayeez8888@gmail.com_Important_20260506.xlsx
+2026-05-06 10:20:15,933 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-06 10:20:16,585 - ERROR - An unexpected error occurred while processing account spzohous@gmail.com: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+Traceback (most recent call last):
+  File "G:\.shortcut-targets-by-id\1Qo_94sphOgbE8x9G42zAk0w6ksSsbY98\@Gdrive Shamim_shayeez\PythonGmail\mail.py", line 132, in fetch_emails_for_account
+    creds = get_credentials(account_name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\.shortcut-targets-by-id\1Qo_94sphOgbE8x9G42zAk0w6ksSsbY98\@Gdrive Shamim_shayeez\PythonGmail\mail.py", line 61, in get_credentials
+    creds.refresh(Request())
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+    _client._handle_error_response(response_data, retryable_error)
+  File "C:\Users\moham\OneDrive\Desktop\Learning\sp_pandas\.venv\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-05-06 10:20:22,681 - INFO - Authenticating account: spzohous@gmail.com
+2026-05-06 10:20:59,486 - INFO - Authenticating account: spzohous@gmail.com
+2026-05-06 10:20:59,719 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=543977571099-uburbhbksq3fn8v1jb1qdqurss6oni9q.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A54715%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=YEbwNKGWCyHlTQU46kMlECAaHPQhSX&code_challenge=QFckdP0ivn1J0_EUfNaCGxkHy3firOQRCP0sAYJ-t7A&code_challenge_method=S256&access_type=offline
+2026-05-06 10:21:13,409 - INFO - "GET /?state=YEbwNKGWCyHlTQU46kMlECAaHPQhSX&iss=https://accounts.google.com&code=4/0AeoWuM_Km0murIFtzgC8ALrGUIMSODHbe_9XVkMF74e-JH9A7RHcjpYkKgs5E6jjHAZE_w&scope=https://www.googleapis.com/auth/gmail.readonly HTTP/1.1" 200 65
+2026-05-06 10:21:15,026 - INFO - Token saved successfully for spzohous@gmail.com.
+2026-05-06 10:21:25,028 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-06 10:21:25,069 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-06 10:21:26,191 - INFO - Fetching details for 4 messages...
+2026-05-06 10:21:27,494 - INFO - Saved 4 records to output\shayeez8888@gmail.com_Important_20260506.xlsx
+2026-05-06 10:21:27,505 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-06 10:21:27,538 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-06 10:21:28,655 - INFO - Fetching details for 2 messages...
+2026-05-06 10:21:29,476 - INFO - Saved 2 records to output\spzohous@gmail.com_Important_20260506.xlsx
+2026-05-07 08:21:47,201 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 08:21:47,968 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:21:49,268 - INFO - Fetching details for 10 messages...
+2026-05-07 08:21:54,073 - INFO - Saved 4 records to output\shayeez8888@gmail.com_Important_20260506.xlsx
+2026-05-07 08:21:54,167 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Other_20260428.xlsx
+2026-05-07 08:21:54,248 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260427.xlsx
+2026-05-07 08:21:54,344 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Other_20260424.xlsx
+2026-05-07 08:21:54,417 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260420.xlsx
+2026-05-07 08:21:54,500 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260419.xlsx
+2026-05-07 08:21:54,593 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260409.xlsx
+2026-05-07 08:21:54,604 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 08:21:55,368 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:21:56,614 - INFO - Fetching details for 10 messages...
+2026-05-07 08:22:00,647 - INFO - Saved 4 records to output\spzohous@gmail.com_Important_20260506.xlsx
+2026-05-07 08:22:00,744 - INFO - Saved 6 records to output\spzohous@gmail.com_Important_20260505.xlsx
+2026-05-07 08:26:17,469 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 08:26:17,519 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:26:19,282 - INFO - No messages found.
+2026-05-07 08:26:19,298 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 08:26:19,335 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:26:20,675 - INFO - No messages found.
+2026-05-07 08:47:13,848 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 08:47:14,670 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:47:15,783 - INFO - No messages found.
+2026-05-07 08:47:15,798 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 08:47:15,842 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:47:16,952 - INFO - No messages found.
+2026-05-07 08:48:44,874 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 08:48:44,935 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:48:46,054 - INFO - Fetching details for 1 messages...
+2026-05-07 08:48:46,431 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260507.xlsx
+2026-05-07 08:48:46,442 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 08:48:46,487 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:48:47,586 - INFO - No messages found.
+2026-05-07 08:49:09,635 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 08:49:09,696 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:49:10,751 - INFO - Fetching details for 1 messages...
+2026-05-07 08:49:11,133 - INFO - Saved 1 records to output\shayeez8888@gmail.com_Important_20260507.xlsx
+2026-05-07 08:49:11,146 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 08:49:11,181 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 08:49:12,273 - INFO - No messages found.
+2026-05-07 03:39:40,449 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 03:39:40,453 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:39:40,863 - INFO - No messages found.
+2026-05-07 03:39:40,864 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 03:39:40,865 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:39:41,260 - INFO - Fetching details for 1 messages...
+2026-05-07 03:39:41,415 - INFO - Saved 1 records to output/shayeez8888@gmail.com_Important_20260507.xlsx
+2026-05-07 03:46:38,038 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 03:46:38,041 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:46:38,430 - INFO - No messages found.
+2026-05-07 03:46:38,431 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 03:46:38,432 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:46:38,870 - INFO - Fetching details for 1 messages...
+2026-05-07 03:46:39,029 - INFO - Saved 1 records to output/shayeez8888@gmail.com_Important_20260507.xlsx
+2026-05-07 03:54:11,548 - INFO - --- Processing account: spzohous@gmail.com ---
+2026-05-07 03:54:11,702 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:54:12,043 - INFO - No messages found.
+2026-05-07 03:54:12,044 - INFO - --- Processing account: shayeez8888@gmail.com ---
+2026-05-07 03:54:12,182 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-05-07 03:54:12,569 - INFO - Fetching details for 1 messages...
+2026-05-07 03:54:12,739 - INFO - Saved 1 records to output/shayeez8888@gmail.com_Important_20260507.xlsx
